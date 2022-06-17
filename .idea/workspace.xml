@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7f1fcd9-a911-468f-891d-f8187f863099" name="Changes" comment="rollback">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="a7f1fcd9-a911-468f-891d-f8187f863099" name="Changes" comment="Git fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chart/Chart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chart/Chart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chart/ChartBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chart/ChartBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewExpense.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewExpense.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -33,7 +39,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655423693756</updated>
-      <workItem from="1655423695070" duration="333000" />
+      <workItem from="1655423695070" duration="755000" />
+      <workItem from="1655425532886" duration="20000" />
+      <workItem from="1655439091227" duration="1122000" />
     </task>
     <task id="LOCAL-00001" summary="rollback">
       <created>1655423767480</created>
@@ -42,7 +50,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655423767480</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Git fix">
+      <created>1655424262709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655424262709</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -58,9 +73,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rollback" />
-    <option name="LAST_COMMIT_MESSAGE" value="rollback" />
+    <MESSAGE value="Git fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git fix" />
   </component>
 </project>
