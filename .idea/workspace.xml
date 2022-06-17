@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7f1fcd9-a911-468f-891d-f8187f863099" name="Changes" comment="Git fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Chart/Chart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chart/Chart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Chart/ChartBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chart/ChartBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpenseItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewExpense.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewExpense.css" afterDir="false" />
-    </list>
+    <list default="true" id="a7f1fcd9-a911-468f-891d-f8187f863099" name="Changes" comment="color changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +33,7 @@
       <updated>1655423693756</updated>
       <workItem from="1655423695070" duration="755000" />
       <workItem from="1655425532886" duration="20000" />
-      <workItem from="1655439091227" duration="1122000" />
+      <workItem from="1655439091227" duration="1795000" />
     </task>
     <task id="LOCAL-00001" summary="rollback">
       <created>1655423767480</created>
@@ -57,7 +49,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655424262709</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="color changes">
+      <created>1655441046754</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655441046754</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +77,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rollback" />
     <MESSAGE value="Git fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Git fix" />
+    <MESSAGE value="color changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="color changes" />
   </component>
 </project>
