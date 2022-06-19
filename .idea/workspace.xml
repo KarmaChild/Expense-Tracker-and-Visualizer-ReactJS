@@ -31,6 +31,11 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adith\WebstormProjects\GitHub\Expense Tracker and Visualizer ReactJS\src\components\Expenses" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="dbTest.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/dbTest.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
