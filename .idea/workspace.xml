@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7f1fcd9-a911-468f-891d-f8187f863099" name="Changes" comment="node modules add">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-    </list>
+    <list default="true" id="a7f1fcd9-a911-468f-891d-f8187f863099" name="Changes" comment="directory fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +53,7 @@
       <workItem from="1655425532886" duration="20000" />
       <workItem from="1655439091227" duration="3660000" />
       <workItem from="1655598817134" duration="4858000" />
-      <workItem from="1655657088780" duration="1493000" />
+      <workItem from="1655657088780" duration="1798000" />
     </task>
     <task id="LOCAL-00001" summary="rollback">
       <created>1655423767480</created>
@@ -104,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655442222517</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="directory fix">
+      <created>1655662542108</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655662542108</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +127,7 @@
     <MESSAGE value="Git fix" />
     <MESSAGE value="color changes" />
     <MESSAGE value="node modules add" />
-    <option name="LAST_COMMIT_MESSAGE" value="node modules add" />
+    <MESSAGE value="directory fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="directory fix" />
   </component>
 </project>
