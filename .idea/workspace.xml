@@ -1,10 +1,396 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7f1fcd9-a911-468f-891d-f8187f863099" name="Changes" comment="commit 1">
+    <list default="true" id="a7f1fcd9-a911-468f-891d-f8187f863099" name="Changes" comment="graphql init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/NotSupportedTSVersion.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/error/GraphQLError.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/error/GraphQLError.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/error/GraphQLError.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/error/GraphQLError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/error/GraphQLError.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/error/GraphQLError.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/error/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/error/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/error/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/error/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/error/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/error/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/error/locatedError.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/error/locatedError.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/error/locatedError.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/error/locatedError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/error/locatedError.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/error/locatedError.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/error/syntaxError.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/error/syntaxError.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/error/syntaxError.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/error/syntaxError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/error/syntaxError.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/error/syntaxError.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/collectFields.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/collectFields.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/collectFields.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/execute.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/execution/execute.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/execute.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/execution/execute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/execute.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/execution/execute.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/execution/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/execution/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/execution/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/mapAsyncIterator.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/mapAsyncIterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/mapAsyncIterator.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/subscribe.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/subscribe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/subscribe.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/values.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/execution/values.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/values.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/execution/values.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/execution/values.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/execution/values.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/graphql.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/graphql.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/graphql.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/graphql.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/graphql.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/graphql.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/Maybe.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/Maybe.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/Maybe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/Maybe.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/ObjMap.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/ObjMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/ObjMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/ObjMap.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/ObjMap.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/Path.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/Path.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/Path.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/Path.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/Path.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/Path.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/PromiseOrValue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/PromiseOrValue.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/PromiseOrValue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/PromiseOrValue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/PromiseOrValue.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/PromiseOrValue.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/devAssert.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/devAssert.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/devAssert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/devAssert.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/devAssert.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/didYouMean.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/didYouMean.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/didYouMean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/didYouMean.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/didYouMean.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/groupBy.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/groupBy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/groupBy.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/identityFunc.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/identityFunc.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/identityFunc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/identityFunc.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/identityFunc.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/inspect.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/inspect.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/inspect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/inspect.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/inspect.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/instanceOf.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/instanceOf.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/instanceOf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/instanceOf.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/instanceOf.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/invariant.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/invariant.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/invariant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/invariant.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/invariant.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/isAsyncIterable.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/isAsyncIterable.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/isAsyncIterable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/isAsyncIterable.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/isAsyncIterable.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/isIterableObject.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/isIterableObject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/isIterableObject.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/isObjectLike.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/isObjectLike.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/isObjectLike.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/isObjectLike.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/isObjectLike.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/isPromise.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/isPromise.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/isPromise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/isPromise.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/isPromise.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/keyMap.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/keyMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/keyMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/keyMap.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/keyMap.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/keyValMap.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/keyValMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/keyValMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/keyValMap.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/keyValMap.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/mapValue.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/mapValue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/mapValue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/mapValue.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/mapValue.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/memoize3.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/memoize3.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/memoize3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/memoize3.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/memoize3.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/naturalCompare.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/naturalCompare.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/naturalCompare.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/naturalCompare.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/naturalCompare.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/printPathArray.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/printPathArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/printPathArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/printPathArray.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/printPathArray.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/promiseForObject.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/promiseForObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/promiseForObject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/promiseForObject.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/promiseForObject.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/promiseReduce.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/promiseReduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/promiseReduce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/promiseReduce.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/promiseReduce.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/suggestionList.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/suggestionList.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/suggestionList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/suggestionList.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/suggestionList.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/toError.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/toError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/toError.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/toObjMap.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/toObjMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/toObjMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/jsutils/toObjMap.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/jsutils/toObjMap.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/ast.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/ast.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/ast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/ast.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/ast.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/blockString.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/blockString.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/blockString.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/blockString.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/blockString.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/blockString.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/characterClasses.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/characterClasses.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/characterClasses.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/directiveLocation.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/directiveLocation.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/directiveLocation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/directiveLocation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/directiveLocation.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/directiveLocation.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/kinds.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/kinds.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/kinds.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/kinds.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/kinds.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/kinds.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/lexer.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/lexer.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/lexer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/lexer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/lexer.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/lexer.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/location.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/location.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/location.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/location.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/location.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/location.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/parser.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/parser.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/parser.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/parser.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/predicates.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/predicates.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/predicates.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/predicates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/predicates.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/predicates.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/printLocation.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/printLocation.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/printLocation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/printLocation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/printLocation.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/printLocation.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/printString.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/printString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/printString.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/printer.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/printer.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/printer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/printer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/printer.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/printer.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/source.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/source.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/source.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/source.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/source.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/source.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/tokenKind.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/tokenKind.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/tokenKind.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/tokenKind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/tokenKind.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/tokenKind.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/visitor.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/visitor.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/visitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/visitor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/language/visitor.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/language/visitor.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/subscription/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/subscription/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/subscription/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/subscription/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/subscription/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/subscription/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/assertName.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/assertName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/assertName.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/definition.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/definition.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/definition.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/definition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/definition.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/definition.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/directives.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/directives.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/directives.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/directives.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/directives.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/directives.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/introspection.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/introspection.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/introspection.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/introspection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/introspection.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/introspection.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/scalars.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/scalars.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/scalars.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/scalars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/scalars.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/scalars.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/schema.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/schema.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/schema.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/schema.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/validate.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/validate.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/type/validate.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/type/validate.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/TypeInfo.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/TypeInfo.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/TypeInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/TypeInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/TypeInfo.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/TypeInfo.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/assertValidName.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/assertValidName.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/assertValidName.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/assertValidName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/assertValidName.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/assertValidName.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/astFromValue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/astFromValue.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/astFromValue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/astFromValue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/astFromValue.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/astFromValue.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/buildASTSchema.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/buildASTSchema.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/buildASTSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/buildASTSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/buildASTSchema.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/buildASTSchema.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/buildClientSchema.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/buildClientSchema.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/buildClientSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/buildClientSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/buildClientSchema.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/buildClientSchema.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/coerceInputValue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/coerceInputValue.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/coerceInputValue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/coerceInputValue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/coerceInputValue.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/coerceInputValue.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/concatAST.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/concatAST.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/concatAST.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/concatAST.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/concatAST.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/concatAST.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/extendSchema.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/extendSchema.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/extendSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/extendSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/extendSchema.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/extendSchema.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/findBreakingChanges.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/findBreakingChanges.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/findBreakingChanges.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/findBreakingChanges.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/findBreakingChanges.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/findBreakingChanges.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/getIntrospectionQuery.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/getIntrospectionQuery.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/getIntrospectionQuery.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/getIntrospectionQuery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/getIntrospectionQuery.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/getIntrospectionQuery.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/getOperationAST.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/getOperationAST.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/getOperationAST.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/getOperationAST.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/getOperationAST.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/getOperationAST.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/getOperationRootType.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/getOperationRootType.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/getOperationRootType.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/getOperationRootType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/getOperationRootType.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/getOperationRootType.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/introspectionFromSchema.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/introspectionFromSchema.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/introspectionFromSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/introspectionFromSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/introspectionFromSchema.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/introspectionFromSchema.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/lexicographicSortSchema.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/lexicographicSortSchema.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/lexicographicSortSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/lexicographicSortSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/lexicographicSortSchema.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/lexicographicSortSchema.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/printSchema.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/printSchema.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/printSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/printSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/printSchema.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/printSchema.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/separateOperations.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/separateOperations.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/separateOperations.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/separateOperations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/separateOperations.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/separateOperations.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/sortValueNode.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/sortValueNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/sortValueNode.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/stripIgnoredCharacters.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/stripIgnoredCharacters.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/stripIgnoredCharacters.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/stripIgnoredCharacters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/stripIgnoredCharacters.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/stripIgnoredCharacters.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/typeComparators.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/typeComparators.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/typeComparators.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/typeComparators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/typeComparators.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/typeComparators.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/typeFromAST.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/typeFromAST.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/typeFromAST.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/typeFromAST.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/typeFromAST.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/typeFromAST.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/typedQueryDocumentNode.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/typedQueryDocumentNode.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/typedQueryDocumentNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/typedQueryDocumentNode.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/valueFromAST.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/valueFromAST.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/valueFromAST.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/valueFromAST.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/valueFromAST.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/valueFromAST.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/valueFromASTUntyped.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/valueFromASTUntyped.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/valueFromASTUntyped.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/valueFromASTUntyped.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/utilities/valueFromASTUntyped.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/utilities/valueFromASTUntyped.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/ValidationContext.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/ValidationContext.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/ValidationContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/ValidationContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/ValidationContext.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/ValidationContext.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ExecutableDefinitionsRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ExecutableDefinitionsRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ExecutableDefinitionsRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ExecutableDefinitionsRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ExecutableDefinitionsRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ExecutableDefinitionsRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/FieldsOnCorrectTypeRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/FieldsOnCorrectTypeRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/FieldsOnCorrectTypeRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/FieldsOnCorrectTypeRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/FieldsOnCorrectTypeRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/FieldsOnCorrectTypeRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/FragmentsOnCompositeTypesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/FragmentsOnCompositeTypesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/FragmentsOnCompositeTypesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/FragmentsOnCompositeTypesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/FragmentsOnCompositeTypesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/FragmentsOnCompositeTypesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownArgumentNamesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownArgumentNamesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownArgumentNamesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownArgumentNamesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownArgumentNamesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownArgumentNamesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownDirectivesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownDirectivesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownDirectivesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownDirectivesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownDirectivesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownDirectivesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownFragmentNamesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownFragmentNamesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownFragmentNamesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownFragmentNamesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownFragmentNamesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownFragmentNamesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownTypeNamesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownTypeNamesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownTypeNamesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownTypeNamesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownTypeNamesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/KnownTypeNamesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/LoneAnonymousOperationRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/LoneAnonymousOperationRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/LoneAnonymousOperationRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/LoneAnonymousOperationRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/LoneAnonymousOperationRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/LoneAnonymousOperationRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/LoneSchemaDefinitionRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/LoneSchemaDefinitionRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/LoneSchemaDefinitionRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/LoneSchemaDefinitionRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/LoneSchemaDefinitionRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/LoneSchemaDefinitionRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoFragmentCyclesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoFragmentCyclesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoFragmentCyclesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoFragmentCyclesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoFragmentCyclesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoFragmentCyclesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUndefinedVariablesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUndefinedVariablesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUndefinedVariablesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUndefinedVariablesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUndefinedVariablesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUndefinedVariablesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUnusedFragmentsRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUnusedFragmentsRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUnusedFragmentsRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUnusedFragmentsRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUnusedFragmentsRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUnusedFragmentsRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUnusedVariablesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUnusedVariablesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUnusedVariablesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUnusedVariablesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUnusedVariablesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/NoUnusedVariablesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/OverlappingFieldsCanBeMergedRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/OverlappingFieldsCanBeMergedRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/OverlappingFieldsCanBeMergedRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/OverlappingFieldsCanBeMergedRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/OverlappingFieldsCanBeMergedRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/OverlappingFieldsCanBeMergedRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/PossibleFragmentSpreadsRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/PossibleFragmentSpreadsRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/PossibleFragmentSpreadsRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/PossibleFragmentSpreadsRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/PossibleFragmentSpreadsRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/PossibleFragmentSpreadsRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/PossibleTypeExtensionsRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/PossibleTypeExtensionsRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/PossibleTypeExtensionsRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/PossibleTypeExtensionsRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/PossibleTypeExtensionsRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/PossibleTypeExtensionsRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ProvidedRequiredArgumentsRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ProvidedRequiredArgumentsRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ProvidedRequiredArgumentsRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ProvidedRequiredArgumentsRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ProvidedRequiredArgumentsRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ProvidedRequiredArgumentsRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ScalarLeafsRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ScalarLeafsRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ScalarLeafsRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ScalarLeafsRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ScalarLeafsRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ScalarLeafsRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/SingleFieldSubscriptionsRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/SingleFieldSubscriptionsRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/SingleFieldSubscriptionsRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/SingleFieldSubscriptionsRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/SingleFieldSubscriptionsRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/SingleFieldSubscriptionsRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueArgumentDefinitionNamesRule.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueArgumentDefinitionNamesRule.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueArgumentDefinitionNamesRule.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueArgumentNamesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueArgumentNamesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueArgumentNamesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueArgumentNamesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueArgumentNamesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueArgumentNamesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueDirectiveNamesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueDirectiveNamesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueDirectiveNamesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueDirectiveNamesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueDirectiveNamesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueDirectiveNamesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueDirectivesPerLocationRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueDirectivesPerLocationRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueDirectivesPerLocationRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueDirectivesPerLocationRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueDirectivesPerLocationRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueDirectivesPerLocationRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueEnumValueNamesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueEnumValueNamesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueEnumValueNamesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueEnumValueNamesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueEnumValueNamesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueEnumValueNamesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueFieldDefinitionNamesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueFieldDefinitionNamesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueFieldDefinitionNamesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueFieldDefinitionNamesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueFieldDefinitionNamesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueFieldDefinitionNamesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueFragmentNamesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueFragmentNamesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueFragmentNamesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueFragmentNamesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueFragmentNamesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueFragmentNamesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueInputFieldNamesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueInputFieldNamesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueInputFieldNamesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueInputFieldNamesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueInputFieldNamesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueInputFieldNamesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueOperationNamesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueOperationNamesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueOperationNamesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueOperationNamesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueOperationNamesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueOperationNamesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueOperationTypesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueOperationTypesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueOperationTypesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueOperationTypesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueOperationTypesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueOperationTypesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueTypeNamesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueTypeNamesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueTypeNamesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueTypeNamesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueTypeNamesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueTypeNamesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueVariableNamesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueVariableNamesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueVariableNamesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueVariableNamesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueVariableNamesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/UniqueVariableNamesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ValuesOfCorrectTypeRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ValuesOfCorrectTypeRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ValuesOfCorrectTypeRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ValuesOfCorrectTypeRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ValuesOfCorrectTypeRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/ValuesOfCorrectTypeRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/VariablesAreInputTypesRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/VariablesAreInputTypesRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/VariablesAreInputTypesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/VariablesAreInputTypesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/VariablesAreInputTypesRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/VariablesAreInputTypesRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/VariablesInAllowedPositionRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/VariablesInAllowedPositionRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/VariablesInAllowedPositionRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/VariablesInAllowedPositionRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/VariablesInAllowedPositionRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/VariablesInAllowedPositionRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/custom/NoDeprecatedCustomRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/custom/NoDeprecatedCustomRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/custom/NoDeprecatedCustomRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/custom/NoDeprecatedCustomRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/custom/NoDeprecatedCustomRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/custom/NoDeprecatedCustomRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/custom/NoSchemaIntrospectionCustomRule.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/custom/NoSchemaIntrospectionCustomRule.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/custom/NoSchemaIntrospectionCustomRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/custom/NoSchemaIntrospectionCustomRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/rules/custom/NoSchemaIntrospectionCustomRule.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/rules/custom/NoSchemaIntrospectionCustomRule.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/specifiedRules.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/specifiedRules.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/specifiedRules.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/specifiedRules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/specifiedRules.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/specifiedRules.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/validate.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/validate.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/validation/validate.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/validation/validate.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/version.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/version.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/version.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/version.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graphql/version.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graphql/version.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
@@ -35,7 +421,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -65,7 +451,9 @@
       <workItem from="1655425532886" duration="20000" />
       <workItem from="1655439091227" duration="3660000" />
       <workItem from="1655598817134" duration="4858000" />
-      <workItem from="1655657088780" duration="4191000" />
+      <workItem from="1655657088780" duration="7261000" />
+      <workItem from="1655740646356" duration="635000" />
+      <workItem from="1655744157087" duration="2365000" />
     </task>
     <task id="LOCAL-00001" summary="rollback">
       <created>1655423767480</created>
@@ -144,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655662976143</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="graphql init">
+      <created>1655665474357</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655665474357</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +565,7 @@
     <MESSAGE value="directory fix" />
     <MESSAGE value="expense item css fix" />
     <MESSAGE value="commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 1" />
+    <MESSAGE value="graphql init" />
+    <option name="LAST_COMMIT_MESSAGE" value="graphql init" />
   </component>
 </project>
