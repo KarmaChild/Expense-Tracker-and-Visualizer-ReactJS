@@ -1,5 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose')
+const bodyparser = require('body-parser');
 
 
 
@@ -20,6 +21,50 @@ mongoose.connect(url,connection).then(()=>{
 
 app.get('/hello',(req,res) =>{
     res.send('hello world')
+})
+
+
+
+const Schema = mongoose.Schema
+
+const ExpenseSchema = new Schema({
+    id:{
+        type: String,
+        required:true
+    } ,
+    title:{
+        type: String
+    },
+    amount:{
+        type:String
+    },
+    date:{
+        type:String
+    },
+},{timestamps:true})
+
+const ExpenseModel = mongoose.model("expense",ExpenseSchema)
+
+app.get('/post',(req,res) =>{
+    const expense = new ExpenseModel({
+        id: 'e2',
+        title: 'New TV',
+    })
+    expense.save().then((result) => {
+        res.send(result)
+        console.log(result)
+    }).catch((error) => {
+        console.log(error)
+    })
+})
+
+app.get("/data", (req,res) => {
+    ExpenseModel.find().then((result)=>{
+        res.send(result)
+        console.log(result)
+    }).catch((error)=>{
+        console.log("❌ Error:",error)
+    })
 })
 
 

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7f1fcd9-a911-468f-891d-f8187f863099" name="Changes" comment="mongoose install">
+    <list default="true" id="a7f1fcd9-a911-468f-891d-f8187f863099" name="Changes" comment="DB connected">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +46,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adith\WebstormProjects\GitHub\Expense Tracker and Visualizer ReactJS" />
+      <recent name="C:\Users\adith\WebstormProjects\GitHub\Expense Tracker and Visualizer ReactJS\src" />
       <recent name="C:\Users\adith\WebstormProjects\GitHub\Expense Tracker and Visualizer ReactJS\src\components\Expenses" />
     </key>
   </component>
@@ -72,7 +76,7 @@
       <workItem from="1655657088780" duration="7261000" />
       <workItem from="1655740646356" duration="635000" />
       <workItem from="1655744157087" duration="2365000" />
-      <workItem from="1655767098599" duration="1304000" />
+      <workItem from="1655767098599" duration="5139000" />
     </task>
     <task id="LOCAL-00001" summary="rollback">
       <created>1655423767480</created>
@@ -172,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655767814763</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="DB connected">
+      <created>1655768486888</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1655768486888</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +211,7 @@
     <MESSAGE value="commit 1" />
     <MESSAGE value="graphql init" />
     <MESSAGE value="mongoose install" />
-    <option name="LAST_COMMIT_MESSAGE" value="mongoose install" />
+    <MESSAGE value="DB connected" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB connected" />
   </component>
 </project>
