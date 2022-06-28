@@ -1,5 +1,8 @@
 # Expense-Tracker-and-Visualizer-ReactJS
 
+# View Project Images - ![image](https://user-images.githubusercontent.com/74791365/176264926-39b96001-a47c-49e6-82ec-c5d3ca80354e.png)
+
+
 An application used to track and visualize monthly expenses. Built Using ReactJs, also hosted on AWS using AWS Amplify service 
 
 ## Project Status
