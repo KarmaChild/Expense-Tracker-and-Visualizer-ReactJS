@@ -4,7 +4,7 @@ const bodyparser = require('body-parser');
 
 
 
-const url = "mongodb+srv://mongo:fStqR3fnpNrABU_@cluster0.ya30d.mongodb.net/?retryWrites=true&w=majority"
+const url = //fill in password
 const app = express()
 
 
