@@ -7,7 +7,6 @@ An application used to track and visualize monthly expenses. Built Using ReactJs
 
 ## Project Status
 
-This project is currently in continous development. Currently adding a NodeJs backend, MongoDB Database and a GraphQL API
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
